@@ -1,0 +1,29 @@
+﻿@model Tracs.SyncWebsite.Models.TransportTypes
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>TransportTypes</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MoveType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MoveType)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.TransportTypesID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
