@@ -17,14 +17,14 @@ namespace Tracs.SyncWebsite.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Sync Module of Tracs System";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "You can contact Tracs team through email kazkasolutions@gmail.com ";
 
             return View();
         }
