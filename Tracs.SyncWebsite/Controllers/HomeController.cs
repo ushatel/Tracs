@@ -24,7 +24,7 @@ namespace Tracs.SyncWebsite.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "You can contact Tracs team through email kazkasolutions@gmail.com ";
+            ViewBag.Message = "You can contact Tracs team by email kazkasolutions@gmail.com or by phone";
 
             return View();
         }
